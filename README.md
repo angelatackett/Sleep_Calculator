@@ -2,7 +2,11 @@
 
 ***SLEEP CALCULATOR***
 
-This program will take your average nightly amount of sleep and provide you with your average sleep per week, month, and year.
+This is a Java program that calculates the average amount of sleep a person gets per week, month, and year based on their input of their average nightly amount of sleep. The program uses a dictionary, implemented as a LinkedHashMap, to store the number of days in each month. The program excludes leap years from its calculations.
+
+The program prompts the user to input their average nightly amount of sleep and then calculates and displays the average amount of sleep per week, month, and year. The program uses a for loop to iterate through the dictionary and calculate the average amount of sleep for each month.
+
+The output is displayed in a formatted way that clearly shows the results for each time period.
 
 [NOT INCLUDING LEAPYEARS]
 
